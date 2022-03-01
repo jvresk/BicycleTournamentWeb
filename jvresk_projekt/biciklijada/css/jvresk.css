@@ -1,0 +1,238 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 9, 2020, 12:31:30 PM
+    Author     : WebDiP_02
+*/
+
+body{
+    width: 100%;
+    margin:auto;
+    background-color: white ;
+    color: black;
+    font-family: "arial";
+}
+
+header{
+    background-color: white;
+}
+
+footer{
+    background-color: white;
+}
+
+
+
+/*pocetna_grid*/
+.resetka {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    max-width: 100%;
+}
+
+/*pocetna_header*/
+.spojiStupce {
+    grid-column: 1/ span 4;
+    grid-row: 1;
+    background-color: #F9913F;
+}
+
+#pocetna{
+    text-align: center;
+}
+
+.gumbiUZaglavlju{
+    text-align: right;
+}
+
+hr{
+    border-color: #635F5E;
+    height: 7px;
+    background-color: #635F5E;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.izbornik_poc {
+    grid-column: 1/span 2;
+    grid-row: 2;
+    text-align: center;
+}
+
+.opis{
+    grid-column: 3/span 2;
+    grid-row: 2;
+    text-align: center;
+    margin-right: 25px;
+    font-style: arial;
+    
+
+    background-image: url("../multimedija/cycling.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+    
+}
+
+/*naslovi*/
+
+h1{
+    color: #F9913F;
+    font-size: 28pt;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 25px;
+    color: #F9913F; 
+}
+
+/*prijava*/
+#prijava_diz{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+/*o_autoru promjene*/
+#promjena :hover{
+    color: #F9913F;
+}
+
+.promjena_slike img:hover{
+    transform: scale(0.9);
+}
+
+#autor_diz{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;   
+}
+
+/*navigacija*/
+nav{
+    width: 100%;
+    float:left;
+    padding-bottom: 25px;
+}
+
+nav>ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+nav>ul li{
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    line-height: 1;
+}
+
+nav>ul li a{
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav>ul li a:hover{
+    color: #F9913F;
+}
+
+
+/*registracija*/
+
+#registracija{
+    align-items: center;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#captchaInput {
+      width: 2.5em;
+      margin-left: .5em;
+    }
+    
+/*footer*/
+
+.spojiFooter {
+    grid-column: 1/ span 4;
+    grid-row: 6;
+}
+
+.footer {
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+    background-color: #F9913F;
+    color: black;
+    text-align: center;
+    clear: both;
+}
+
+#canvas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 15%;
+    margin: auto;
+   
+}
+
+
+/*obrazac*/
+form{
+    padding: 25px;
+}
+
+fieldset{
+    text-align: center;
+    width: 25%;
+    margin: auto;
+
+}
+
+fieldset>legend{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+table{
+    width:50%;
+    text-align: center;
+    border: black;
+    margin: auto;
+}
+
+table>thead{
+    background-color: #F9913F;
+}
+
+#unos{
+    display: block;
+    width:10%;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
