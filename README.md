@@ -1,3 +1,3 @@
 # BicycleTournamentWeb
 
-Web stranica za organizaciju biciklističkog turnira s pripadajućom bazom podataka.
+Website for organizing a cycling tournament with a database. 
